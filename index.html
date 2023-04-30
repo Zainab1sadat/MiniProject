@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-image:url(f.png) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        fieldset{
+            background-color:rgba(151, 150, 150, 0.582);
+            box-shadow: 10px 10px 10px;
+            border-radius:20px;
+            margin-top:100px;
+            margin-left:500px;
+            width: 300px;
+            height: 350px;
+        }
+        table{
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        input:hover{
+            background-color: rgb(208, 204, 211);
+        }
+        td{
+            padding: 10px;
+        }
+        input{
+            width: 200px;
+            padding:8px;
+            border: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px ;
+        }
+       input[type="button"]{
+           width: 220px;
+           background-color: rgb(147, 196, 212);
+           border: white transparent;
+           animation-name: button;
+           animation-duration: 10s;
+       }
+       strong{
+           text-align: center;
+           margin: auto;
+           padding-left: 90px;
+       }
+       h1{
+           color: rgb(247, 246, 243);
+       }
+       @keyframes button{
+           from {background-color:turquoise;}
+           to {background-color: teal;}
+       }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <table>
+            <tr><td><h1>Login Form</h1></td></tr>
+            <tr><td><input type="text" placeholder="Your name"></td></tr>
+            <tr><td><input type="email" placeholder="Email"></td></tr>
+            <tr></tr>
+            <tr><td><input type="button" value="Login"></td></tr>
+        </table>
+        <strong>Forgot Pssword</strong>
+    </fieldset>
+</body>
+</html>
